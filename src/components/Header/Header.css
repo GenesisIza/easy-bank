@@ -1,0 +1,19 @@
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 137px;
+}
+.flex-item-init{
+     width: 400px;
+     width: 400px;
+}
+
+.text{
+   align-self: center;
+}
+
+.flex-container{
+    background-image: url('/public/images/bg-intro-desktop.svg') !important;
+   
+    
+}

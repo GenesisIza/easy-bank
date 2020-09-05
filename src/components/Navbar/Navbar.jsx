@@ -1,25 +1,25 @@
-import React from "react";
-import "./Navbar.css";
+import React from "react"
+import "./Navbar.css"
 
-const Navbar = () => {
-    return <nav>
-                <div className="nav-header flex-item">
-                <img src={process.env.PUBLIC_URL + '/images/logo.svg'} alt="fuck" />
-                </div>
-                <div className="flex-item nav-links ">
-                    <span>Home</span>
-                    <span>About</span>
-                    <span>Contact</span>
-                    <span>Blog</span>
-                    <span>Careers</span>
-                </div>
-                <div className="flex-item nav-button ">
-                  <button>Request Invite</button>
-                </div>
-                <div className="flex-item nav-button-movile">
-                  &#9776;
-                </div>
-            </nav>
-}
+const Navbar = () => (
+          <nav>
+            <div className="nav-header flex-item">
+              <img src={process.env.PUBLIC_URL + '/images/logo.svg'} alt="cargando" />
+            </div>
+            <div className="flex-item nav-links ">
+              <span>Home</span>
+              <span>About</span>
+              <span>Contact</span>
+              <span>Blog</span>
+              <span>Careers</span>
+            </div>
+            <div className="flex-item nav-button ">
+              <button>Request Invite</button>
+            </div>
+            <div className="flex-item nav-button-movile">
+              &#9776;
+             </div>
+          </nav>
+        )
 
-export default Navbar;
+export default Navbar
