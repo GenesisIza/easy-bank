@@ -1,0 +1,13 @@
+.flex-container-sug{
+    display: flex;
+    flex-direction: row;
+    height: 23rem;
+    width: auto;
+    padding: 42px 137px 15px 137px ;
+    background-color: hsl(220, 16%, 96%);
+
+}
+
+.flex-item-sug{
+   margin:10px;
+}
