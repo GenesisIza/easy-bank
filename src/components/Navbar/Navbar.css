@@ -22,13 +22,13 @@ nav{
    cursor: hand;
 }
 
-span{
+nav>div>span{
     margin-left: 13px;
     margin-right: 13px;
     padding-bottom: 27px;
 }
 
-span:hover{
+nav>div>span:hover{
     border-bottom: 4px solid;
     border-image:  linear-gradient(90deg, rgba(48,211,92,1) 6%, rgba(42,182,217,1) 55%, rgba(45,69,77,1) 100%) 1; 
 }
