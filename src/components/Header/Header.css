@@ -1,19 +1,61 @@
-.flex-container{
+.flex-container-hea{
   display: flex;
   flex-direction: row;
-  margin-left: 137px;
+
+  flex-wrap: wrap;
 }
 .flex-item-init{
-     width: 400px;
-     width: 400px;
+     width: 410px;
+   
 }
 
 .text{
-   align-self: center;
+  margin-left: 137px;
+  margin-right: 135px;
+  align-self: center;
+  color:hsl(233, 26%, 24%);
 }
-
+ .text>h1{
+    font-weight: 200;
+    font-size: 53px;
+ }
+  .text>p{
+    font-size: 16px;
+    color: hsl(233, 8%, 62%);
+ }
 .flex-container{
     background-image: url('/public/images/bg-intro-desktop.svg') !important;
    
     
+}
+
+.flex-item-init>img{
+  width: auto;
+  height: 100%;
+  display: block;
+}
+
+/* MOVIL*/
+@media screen and (max-width: 375px) {
+  .init{
+  order: 1;
+ }
+  .text{
+    margin-left: 7px; 
+    margin-right: 7px;
+    text-align: center;
+    padding-bottom: 50px;
+    order: 2;
+  }
+  .text>h1{
+    font-size: 40px;
+ }
+  .flex-item-init>img {
+    width: 100%;
+    height: auto;
+}
+.flex-item-init {
+    width: auto;
+}
+
 }

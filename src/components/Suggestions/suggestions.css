@@ -6,6 +6,7 @@
     width: 100%;
     padding: 42px 130px 15px 130px ;
     background-color: hsl(220, 16%, 96%);
+    justify-content: center;
 }
 
 .flex-item-sug{
@@ -40,7 +41,12 @@
    color: hsl(233, 8%, 62%);
    font-weight: 500;
 }
-
+#texto-principal{
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 130px 0px 80px;
+}
 @media screen and (max-width: 375px) {
     .flex-container-sug{
     padding: 42px 10px 15px 10px;
@@ -48,6 +54,19 @@
 }
 .flex-item-sug{
    align-self: center;
+   margin: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.flex-container-secondary{
+   justify-content: center;
+   padding:5px;
+}
+#texto-principal{
+   padding: 5px;
+   text-align: center;
+}
+}
 
-}
-}
+

@@ -3,7 +3,7 @@ import "./suggestions.css"
 
 const Suggestions = () =>(
     <div className="flex-container-sug">
-        <div>
+        <div id="texto-principal">
         <h2>
              Why choose Easybank?
         </h2>

@@ -1,16 +1,16 @@
 import React from "react"
 import "./Header.css"
 const Header = () => (
-   <div className="flex-container">
+   <div className="flex-container-hea">
        <div className="flex-item-init text">
             <h1>  
-            Next generation<br/> 
+            Next generation
             digital banking
-            </h1>
+            </h1> 
             <p>
-                Take your financial life online. Your Easybank account<br/>  
+                Take your financial life online. Your Easybank account  
                 will be a one-stop-shop 
-                for spending, saving, <br/>
+                for spending, saving, 
                  budgeting, investing, and much more.
             </p>
             <button>Request Invite</button>
