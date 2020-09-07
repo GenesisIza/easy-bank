@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Sin plugins ni frameworks CSS, solamente flexbox.
+
+## Sin plugins ni frameworks CSS, solamente flexbox.
 
 ## Available Scripts
 
