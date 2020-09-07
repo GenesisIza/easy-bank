@@ -1,19 +1,24 @@
 .flex-container-hea{
   display: flex;
   flex-direction: row;
-
   flex-wrap: wrap;
+  background-image: url("/images/bg-intro-desktop.svg");
+  background-attachment: fixed;
+  background-position-y: center;
+  background-position-x: 460px;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 .flex-item-init{
      width: 410px;
    
 }
-
 .text{
   margin-left: 137px;
   margin-right: 135px;
   align-self: center;
   color:hsl(233, 26%, 24%);
+  padding-bottom: 150px;
 }
  .text>h1{
     font-weight: 200;
@@ -23,11 +28,7 @@
     font-size: 16px;
     color: hsl(233, 8%, 62%);
  }
-.flex-container{
-    background-image: url('/public/images/bg-intro-desktop.svg') !important;
-   
-    
-}
+
 
 .flex-item-init>img{
   width: auto;
@@ -56,6 +57,12 @@
 }
 .flex-item-init {
     width: auto;
+}
+.flex-container-hea{
+  background-image: url("/images/bg-intro-mobile.svg");
+    background-position-y: 2px;
+    background-position-x: center;
+    background-attachment: unset;
 }
 
 }

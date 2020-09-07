@@ -5,7 +5,7 @@ const Navbar = () => (
           <nav>
             <div className="nav-header flex-item">
               <img src={process.env.PUBLIC_URL + '/images/logo.svg'} alt="cargando" />
-            </div>
+            </div> 
             <div className="flex-item nav-links ">
               <span>Home</span>
               <span>About</span>
@@ -21,5 +21,6 @@ const Navbar = () => (
              </div>
           </nav>
         )
+
 
 export default Navbar

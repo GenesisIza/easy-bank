@@ -7,7 +7,7 @@ const LatestArticles = () =>(
             <img src={process.env.PUBLIC_URL + '/images/image-currency.jpg'} alt="cargando" />
             <div className="card-content">
                 <span>By Claire Robinson</span>
-                <article>
+                <article> 
                     <h1>
                         Receive money in any currency with no fees
                     </h1>

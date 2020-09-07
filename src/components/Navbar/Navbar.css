@@ -34,7 +34,7 @@ nav>div>span:hover{
 }
 .nav-button-movile{
  display: none;
- font-size:18px;
+ font-size:18px; 
 }
 
 @media screen and (max-width: 375px) {
@@ -48,4 +48,11 @@ nav>div>span:hover{
     .nav-button-movile{
     display: block;
     }
+}
+.mostrar{
+    display: block;
+}
+
+.ocultar{
+    display:none;
 }

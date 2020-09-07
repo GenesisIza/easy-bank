@@ -59,7 +59,7 @@
 .flex-item-foo>section>ul{
     width: 150px;
     text-justify: center;
-    padding: 0px;
+    padding: 0px 9px 0px 9px;
 }
 
 .last {
